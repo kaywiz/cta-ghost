@@ -1,0 +1,5 @@
+#Using GCP e2-micro instance via ssh-in-browser
+
+#install git
+sudo apt update
+sudo apt install git
