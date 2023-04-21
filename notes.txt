@@ -3,3 +3,30 @@
 #install git
 sudo apt update
 sudo apt install git
+
+#clone cta-reliability repo
+git clone https://github.com/brandonmcfadd/cta-reliability.git
+
+#install python
+sudo apt-get install python3.6
+
+#install pip
+sudo apt install python3-pip	
+
+#navigate to directory
+cd cta-reliability
+
+#install dependencies
+pip install -r requirements.txt
+
+#update .env_example
+#edit TRAIN_API_KEY based on key in email. Leave single quotes.
+#edit FILE_PATH to /home/cta_reliability498
+#reanme file to .env
+
+#update settings.json with train-tracker api and map enabled, alerts-api enabled, metra-api disabled
+
+#manually create csvs
+
+#run
+python3 main.py
